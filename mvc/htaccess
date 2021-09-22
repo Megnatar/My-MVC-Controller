@@ -1,0 +1,15 @@
+# On my linux machine I needed to enable 'rewrite' in file /etc/atache2/apache2.conf
+# Set 'AllowOverride None' to 'AllowOverride All'.
+# I also needed to enable the module by running command:    sudo a2enmod rewrite
+# Restart the server by running:                            sudo systemctl restart apache2
+#
+# Enable rewrite module so apatche redirects the browser to the prefix folder.
+# The prefix is defined by the RewriteRule. The prefix folder here is public/ .
+# Option L means: Stop the rewriting process immediately and don't apply any more rules.
+# The rule discribes that basically any file and folder is allowed to be rewritten in public/ .
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^$ public/ [L]
+  RewriteRule (.*) public/$1 [L]
+</IfModule>
