@@ -1,0 +1,4 @@
+# Tell the browser not to index this location.
+# So the app folder is hidden from the browser.
+
+Options -Indexes
