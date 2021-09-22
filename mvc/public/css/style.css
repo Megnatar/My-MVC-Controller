@@ -1,0 +1,48 @@
+/** The default style for this site. */
+html,body{width:100%;height:100%;padding:0;margin:0;background-color:#454545; color: #c6c6c6; font-family: sans-serif;}
+.navbar{width:100%;box-shadow:0 5px 10px #424242}
+.navbarPhpInfo{margin:5px;border:1px;display:flex;text-align:left;justify-content:space-between}
+.justifyStart{margin:25px;border:1px;display:flex;justify-content:start}
+.justifyEnd{margin:25px;border:1px;display:flex;justify-content:end}
+.top-nav{display:block;background-color:#3f3f3f;opacity:75%;box-shadow:0 5px 10px #161616}
+.top-nav ul{margin:0;display:flex;justify-content:end;margin-right:2%}
+.top-nav ul li{display:inline-block;margin-left:15px}
+.top-nav ul li a{color:#d8d8d8;text-decoration:none;font-size:18px}
+.top-nav ul li a:hover{color:#fff;transition:.15s ease-in}
+#section-landing{background-size:cover;background-position:center;background-repeat:no-repeat;min-height:800px;min-width:865px}
+.wrapper-landing{position:relative;text-align:center;margin:0 auto;top:40%}
+.wrapper-landing h1{color:#d3d3d3}
+.wrapper-landing h2{color:#d3d3d3}
+.wrapper-about{width:820px;height:830px;min-width:820px;text-align:left;font-size:14px;color:#fff;background-color:#303030;box-shadow:0 0 20px #050505;opacity:75%;margin-left:50px;padding:10px}
+.container{margin:20px;display:flex;justify-content:center}
+.wrapper-tree{width:320px;height:830px;min-width:320px;color:#fff;background-color:#303030;box-shadow:0 0 20px #050505;opacity:75%;padding:10px}
+.wrapper-tree h2{text-align:center}
+.wrapper-tree ul{list-style-type:none}
+#tree-view{padding-left:10px}
+ul,#treeUL{list-style-type:none}
+.caret{color:#adadad;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.caret::before{content:"\25B6";color:#636363;display:inline-block;margin-right:6px}
+.caret-down::before{-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);transform:rotate(90deg)}
+.nested{display:none}
+.active{display:block}
+#tableStyle{border-collapse:collapse;width:100%}
+.wrapper-account{width:820px;height:830px;margin:auto;position:relative;color:#fff;background-color:#303030;box-shadow:0 0 20px #050505;opacity:75%}
+.wrapper-account h2{text-align:center}
+.wrapper-account p{text-align:center;font-size:20px;font-weight:bold}
+.wrapper-account input{width:200px;height:32px;border:1px solid #262626;background-color:#f5f5f5;font-size:18px;display:block;margin:20px auto}
+.wrapper-account button{width:200px;height:32px;border:1px solid #262626;background-color:#f5f5f5;font-size:18px;display:block;margin:20px auto}
+#submit{width:200px;height:42px;border:1px solid #3f3f3f;background-color:#929292;font-size:18px;color:#000;display:block;position:relative;margin:20px auto}
+#submit:hover{border:1px solid #2a2a2a;background-color:#aaa;transition:.15s ease-in}
+#emailSubmit{width:200px;height:42px;border:1px solid #3f3f3f;background-color:#929292;font-size:18px;color:#000;display:block;position:relative;margin:20px auto}
+#emailSubmit:hover{border:1px solid #2a2a2a;background-color:#aaa;transition:.15s ease-in}
+#passwordSubmit{width:200px;height:42px;border:1px solid #3f3f3f;background-color:#929292;font-size:18px;color:#000;display:block;position:relative;margin:20px auto}
+#passwordSubmit:hover{border:1px solid #2a2a2a;background-color:#aaa;transition:.15s ease-in}
+.container-login{width:50%;margin:0 auto;position:relative;top:20%}
+.wrapper-login{width:50%;min-width:210px;background-color:#303030;border:1px solid #262626;box-shadow:0 0 20px #050505;margin:0 auto;text-align:center}
+.wrapper-login h2{color:#aaa}
+.wrapper-login input{width:200px;height:32px;border:1px solid #262626;background-color:#f5f5f5;font-size:18px;display:block;margin:20px auto}
+input::placeholder{color:#a1a1a1;font-size:14px}
+.wrapper-login h2{font-size:40px;text-transform:uppercase}
+.invalidFeedback{color:#aaa}
+.register{color:#787878}
+.register:hover{color:#d7d7d7;transition:.2s ease-in;text-decoration:underline}

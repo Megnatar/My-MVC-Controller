@@ -1,0 +1,20 @@
+/** Override the default style used by phpinfo() function. */
+body {height: 100%; background-color: #454545; color: #c6c6c6; font-family: sans-serif;}
+pre {margin: 0; font-family: monospace;}
+a:link {color: #9c9c9c; text-decoration: none; background-color: #3f3f3f;}
+a:hover {text-decoration: underline;}
+table {border-collapse: collapse; border: 0; width: 113%; box-shadow: 1px 2px 4px #585858;}
+.center {text-align: center;}
+.center table {margin: 1em auto; text-align: left;}
+.center th {text-align: center !important;}
+td, th {border: 1px solid #000000; font-size: 100%; vertical-align: baseline; padding: 5px 7px;}
+th {position: sticky; top: 0; background: inherit;}
+h1 {font-size: 175%;}
+h2 {font-size: 150%;}
+.p {text-align: left;}
+.e {background-color: #4b4b4b; width: 300px; font-weight: bold;}
+.h {background-color: #323232; font-weight: bold;}
+.v {background-color: #5c5c5c; max-width: 300px; overflow-x: auto; word-wrap: break-word;}
+.v i {color: #999;}
+img {float: right; border: 0;}
+hr {width: 934px; background-color: #3b3b3b; border: 0; height: 1px;}
