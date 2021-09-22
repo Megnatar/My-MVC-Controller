@@ -1,0 +1,19 @@
+# On my linux machine I needed to enable 'rewrite' in file /etc/atache2/apache2.conf
+# Set 'AllowOverride None' to 'AllowOverride All'.
+# I also needed to enable the module by running command:    sudo a2enmod rewrite
+# Restart the server by running:                            sudo systemctl restart apache2
+#
+# Enable rewrite module and don't allow multiple folder views.
+# Browser base folder: /mvc/. Let the browser know url is http://localhost/mvc/
+# The .htaccess in mvc tells browser to use this public/ . For this rewrite folder.
+# The conditions are  to allow for files and folders to be rewritten to this base folder /mvc/.* .
+# The rule is for the index or any file|folder to load with parametrs, when needed.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  Options -Multiviews
+  RewriteBase /mvc/
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+</IfModule>
