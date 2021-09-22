@@ -9,8 +9,6 @@ CREATE TABLE `users` (
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
-
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
