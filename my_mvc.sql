@@ -10,7 +10,6 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
-(1, 'Joz', 'j.n@NIX.ORG', '$2y$10$H6AV8oZkeRSb3ORJyF9CkeuZRdzoUdiwVUWqatf07GFOqTaBA1qKO');
 
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
