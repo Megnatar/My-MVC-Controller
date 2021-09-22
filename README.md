@@ -11,6 +11,17 @@ It is wel documented inside....
 
 **Installation**:
 
+First you need to install php MyAdmin and MySql to be able to mange the Database.
+
+phpMyAdmin:
+https://www.phpmyadmin.net
+
+MySQL:
+https://www.mysql.com/
+
+Once installed you need to import the SQL database file:
+my_mvc.sql
+
 Since this application depends on the folder structure.
 Please copy/paste the mvc folder to the root folder of your web server.
 Before opening the url below. Make sure you add my_mvc.sql to you're server.
