@@ -24,7 +24,10 @@ class Url_Handler
 
         // Check if $url[] got any value. Then check if file below exists.
         // Default path is .....                     /app/controllers/Pages.php
-        if (isset($url[0]) && file_exists(CONTROLLERS_ROOT . "/" . ucwords($url[0]) . ".php")) {
+       
+        //if (isset($url[0]) && file_exists(CONTROLLERS_ROOT . "/" . ucwords($url[0]) . ".php")) {
+        // UpperCase word OR empty string.
+        if (isset($url[0]) && file_exists(CONTROLLERS_ROOT . "/" . ucwords($url[0]) ?? '') . '.php')){
 
             // If exists, set a new controller name. By default, file Pages.php.
             // Remove the controller from the $url[0].
