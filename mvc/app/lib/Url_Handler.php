@@ -27,6 +27,7 @@ class Url_Handler
        
         //if (isset($url[0]) && file_exists(CONTROLLERS_ROOT . "/" . ucwords($url[0]) . ".php")) {
         // UpperCase word OR empty string.
+        
         if (isset($url[0]) && file_exists(CONTROLLERS_ROOT . "/" . ucwords($url[0]) ?? '') . '.php')){
 
             // If exists, set a new controller name. By default, file Pages.php.
