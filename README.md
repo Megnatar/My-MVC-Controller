@@ -30,5 +30,5 @@ Before opening the url below. Make sure you add my_mvc.sql to you're server.
 The url is: http://localhost/mvc
 
 
-Writtenby:
+Written by:
 Joz Severijnse
