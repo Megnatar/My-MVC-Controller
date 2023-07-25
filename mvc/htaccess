@@ -6,7 +6,7 @@
 # Enable rewrite module so apatche redirects the browser to the prefix folder.
 # The prefix is defined by the RewriteRule. The prefix folder here is public/ .
 # Option L means: Stop the rewriting process immediately and don't apply any more rules.
-# The rule discribes that basically any file and folder is allowed to be rewritten in public/ .
+# The rule discribes that basically any file and folder is allowed to be rewritten in only public/ .
 
 <IfModule mod_rewrite.c>
   RewriteEngine on
