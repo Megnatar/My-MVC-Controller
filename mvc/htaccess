@@ -7,6 +7,7 @@
 # The prefix is defined by the RewriteRule. The prefix folder here is public/ .
 # Option L means: Stop the rewriting process immediately and don't apply any more rules.
 # The rule discribes that basically any file and folder is allowed to be rewritten in only public/ .
+# So this also means that that app folder, which is not described in de config, is private!
 
 <IfModule mod_rewrite.c>
   RewriteEngine on
